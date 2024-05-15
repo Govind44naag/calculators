@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+ 
+</head>
+<body>
+    <center>
+        <div class="container"> 
+
+        <div class="frame1">
+           <h2 id="result" >0</h2>
+        </div>
+
+        <div class="frame2"> 
+            <table border="1px" id="tables">
+                <tr>
+                    <td><button id="tbutton" onclick="clearResult()">C</button></td>
+                    <td><button id="tbutton" onclick="deleteLastDigit()">D</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('%')">%</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id="tbutton" onclick="appendToResult('1')">1</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('2')">2</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('3')">3</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="tbutton" onclick="appendToResult('4')">4</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('5')">5</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('6')">6</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button  id="tbutton"onclick="appendToResult('7')">7</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('8')">8</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('9')">9</button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="tbutton" onclick="appendToResult('0')">0</button></td>
+                    <td><button id="tbutton" onclick="appendToResult('00')"> 00 </button></td>
+                    <td><button  id="tbutton"onclick="appendToResult('.')">.</button></td>
+                    <td><button  id="tbutton"onclick="calculate()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </center>
+
+    
+</body>
+</html>
